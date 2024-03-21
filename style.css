@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+/* Основной блок */
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding: 45px 0 0 0;
+    background-image: url(img/fon1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.nav_bar {
+    display: flex;
+    padding: 0 30px 0 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin: 0 auto;
+    width: 75%;
+    height: 10%;
+    background: #fff;
+}
+
+.items {
+    display: flex;
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.main_text {
+    margin: 0 auto;
+    width: 60%;
+    height: 60%;
+    
+}
+
+.block_title {
+    margin: 112px 0 0 0;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.block_title span {
+    color: #3FAEF7;
+}
+
+.block_text1{
+    margin: 50px 0 0 0;
+    font-family: "Heebo", sans-serif;
+    font-size: 19px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.block_text2{
+    margin: 50px 0 0 0;
+    font-family: "Heebo", sans-serif;
+    font-size: 19px;
+    color: #fff;
+    line-height: 30px;
+}
+
+.button_menu {
+    margin: 0 auto;
+    width: 60%;
+    height: 15%;
+}
+
+.btn1 {
+    width: 185px;
+    height: 50px;
+    font-family:"Noto Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background: #3FAEF7;
+    color: #fff;
+    border: none;
+}
+
+.btn2 {
+    width: 277px;
+    height: 50px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background: #FEC631;
+    color: #fff;
+    border: none;
+}
+
+/* О нас */
+
+.aboutus {
+    width: 100%;
+    height: 95%;
+}
+
+.text_block1 {
+    align-items: center;
+    margin: 0 auto;
+    padding: 65px 0 24px 0;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: #111111;
+}
+
+.border_block1{
+    margin: 0 auto;
+    width: 67px;
+    height: 4px;
+    background: #319CE3;
+}
+
+.fon2 {
+    display: flex;
+    justify-content: center;
+    margin: 37px 0 0 0;
+}  
+
+.text_block2{
+    width: 68.5%;
+    margin: 0 auto;
+    font-family: "Heebo", sans-serif;
+    font-size: 15px;
+    color: #969696;
+    stroke-width: 5px;
+}
+
+.title_block2 { 
+    margin: 25px 0 25px 0;
+    justify-content: center;
+    font-family: "Noto sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #111111;
+    text-transform: uppercase;
+}
+
+.text_block2 p {
+    margin-bottom: 10px;
+}
+
+/* Что мы предлогаем */
+ 
+.offer {
+    width: 100%;
+    height: 70%;
+    padding: 45px 0 0 0;
+    background-image: url(img/fon1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.offer_block {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.offer_block1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 0 75px 0;
+}
+
+.offer_block2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 15px 0;
+}
+
+
+.card_title {
+    font-family: "Noto sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 15px 0 ;
+}
+
+.card_text {
+    font-family: "Heebo", sans-serif;
+    font-size: 15px;
+    color: #C5C3C3;
+    text-align: center;
+}
+
+/* Комментарии */
+
+.comments {
+    width: 100%;
+    height: 66%;
+}
+
+.com_block {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    padding: 120px 0 0 0 ;
+}
+
+.com {
+    width: 33.3%;
+    margin: 0 60px 0 0;
+} 
+
+.com_title {
+    font-family: "Noto sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+    color: #111111;
+}
+
+.com_text {
+    font-family: "Heebo", sans-serif;
+    font-size: 16px;
+    color: #969696;
+    stroke-width: 7px;
+    margin: 0 0 80px 0;
+}
+
+.com_name {
+    font-family: "Noto sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.com_name span {
+    font-family: "Heebo", sans-serif;
+    font-size: 12.7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #969696;
+}
+
+/* Инструменты */
+
+.tools {
+    width: 100%;
+    height: 120%;
+}
+
+.tools_text {
+    width: 100%;
+    height: 20%;
+    background: #F1F1F1;
+}
+
+.tools_title {
+    font-family: "Noto sans", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #111111;
+    text-align: center;
+    padding: 60px 0 40px 0;
+}
+
+.tools_border {
+    margin: 0 auto;
+    width: 67px;
+    height: 4px;
+    background: #319CE3;
+}
+
+.block_foto1{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 0 50px 0;
+}
+
+.block_foto2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Цена */ 
+
+.price {
+    width: 100%;
+    height: 55%;
+    background: #319CE3;
+}
+
+.price_title {
+    font-family: "Noto sans", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #111111;
+    text-align: center;
+    padding: 70px 0 0 0;
+}
+
+
+
